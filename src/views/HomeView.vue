@@ -6,9 +6,20 @@
       </div>
       
       <!-- Home Hero section -->
-      <div class="w-full h-[50vh] md:h-[60vh] hero  mt-6">
-          <img class="w-full h-full" style="" src="../assets/slider-1.webp" alt="">
+      <div class="conatiner mx-auto px-20 lg:px-32 hero flex bg-lime-combined h-[100vh] md:h-[80vh] justify-between items-center gap-10">
+            <div class="w-full flex items-center flex-col md:items-start">
+                <h1 class="text-5xl md:text-4xl text-white font-bold my-3">Get an Online Menu for <br> Your Restaurant</h1>
+                <p class="text-2xl font-semibold text-white my-3">No need for sanitizing paper menus.</p>
+                <p class="text-2xl font-semibold text-white my-3">Reduce the spread of COVID-19 through <br> physical contact.</p>
+                <button class="bg-white hover:bg-lime-400 outline-none px-8 py-4 rounded-full text-lime-300 hover:text-white font-bold mt-3">Get Started For Free</button>
+                
+            </div>
+            <div class="">
+                <img class="w-[100%] h-[100%]" style="" src="../assets/images/hero.png" alt="">
+            </div>
       </div>
+
+
       <!-- list of products -->
       <div class="page-padding products w-full gap-6 my-4 px-[12px] py-7">
           <div class="col-span-full">
@@ -61,6 +72,14 @@
 
 </script>
 <style scoped>
+    .bg-lime-combined {
+        background: linear-gradient(
+            to bottom, 
+            rgb(163 230 53),  /* bg-lime-50 */
+            rgb(132 204 22),  /* bg-lime-100 */
+            rgb(217, 249, 157)   /* bg-lime-200 */
+        );
+    }
   .products{
       display: grid;
       grid-template-columns: repeat(5, 1fr);

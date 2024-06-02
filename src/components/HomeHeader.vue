@@ -5,7 +5,7 @@
       <!--Website Logo-->
       <div class="logo text-center text-3xl col-span-10 lg:col-span-2 flex items-center justify-start">
         <a  href="/">
-            <img src="../assets/logo.svg" alt="logo">
+            <img src="../assets/images/menu logo.png" alt="logo" width="70" height="70">
         </a>
       </div>
       
