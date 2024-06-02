@@ -8,9 +8,9 @@
       <!-- Home Hero section -->
       <div class="conatiner mx-auto px-20 lg:px-32 hero flex bg-lime-combined h-[100vh] md:h-[80vh] justify-between items-center gap-10">
             <div class="w-full flex items-center flex-col md:items-start">
-                <h1 class="text-5xl md:text-4xl text-white font-bold my-3">Get an Online Menu for <br> Your Restaurant</h1>
-                <p class="text-2xl font-semibold text-white my-3">No need for sanitizing paper menus.</p>
-                <p class="text-2xl font-semibold text-white my-3">Reduce the spread of COVID-19 through <br> physical contact.</p>
+                <h1 class="text-5xl md:text-4xl text-white font-bold my-3">Create and Manage Your <br>Restaurant Menu Online</h1>
+                <p class="text-2xl font-semibold text-white my-3">Design your menu from scratch, add dishes, descriptions, <br> prices, and photos with just a few clicks.</p>
+                <p class="text-2xl font-semibold text-white my-3">Join thousands of satisfied restaurant owners. <br> Sign up today!</p>
                 <button class="bg-white hover:bg-lime-400 outline-none px-8 py-4 rounded-full text-lime-300 hover:text-white font-bold mt-3">Get Started For Free</button>
                 
             </div>
