@@ -5,14 +5,14 @@
       <!--Website Logo-->
       <div class="logo text-center text-3xl col-span-10 lg:col-span-2 flex items-center justify-start">
         <a  href="/">
-            <img src="../assets/images/menu logo.png" alt="logo" width="70" height="70">
+            <img :src="Logo" alt="logo" width="50" height="50">
         </a>
       </div>
       
 
   
       <!--Menu For large Screen Sizes-->
-      <div class="justify-center text-white col-span-7  py-1" :class="{'hidden  lg:hidden': isScrolled, 'hidden lg:flex': !isScrolled}">
+      <div class="justify-center text-white col-span-7  py-1 hidden lg:flex">
         <ul class="flex gap-10 font-normal">
           <a class="relative group" href="/">
             <li  class="text-black">Home</li>
@@ -127,10 +127,8 @@
   </style>
   
   <script>
+  import logo from '@/assets/Images/menu-logo.png';
   import ResponsiveNavbar from '@/components/ResponsiveNavbar.vue'
-  //import LanguageSwitcher from '@/components/LanguageSwitcher.vue'
-  //import SearchModal from '@/components/SearchModal.vue'
-  //import CartModal from "@/components/CartModal.vue"
   import { API_URL, checkAuthAndRole } from "@/config";
   import axios from "axios";
   export default {
@@ -139,6 +137,7 @@
         token: localStorage.getItem('authToken'),
         pageTitle: this.$route.name,
         //categories: [],
+        Logo: logo,
         apiUrl: API_URL,
         isScrolled: false,
         isLogin: false,
