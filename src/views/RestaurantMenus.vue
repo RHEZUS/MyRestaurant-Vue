@@ -3,7 +3,7 @@
     <div v-else class="min-h-screen w-full bg-[#102935]">        
         <!-- list of products -->
       <div class="min-h-[60vh] py-5">
-        <div class="px-28 w-full gap-6 text-[#bea574]">
+        <div class="px-5 sm:px-16 md:px-28 w-full gap-6 text-[#bea574]">
           <div class="w-full flex justify-center items-center">
             <img class="w-24 h-24 rounded-full" v-if="restaurant.logo" :src="mediaUrl + restaurant.logo + '/'" alt="Restaurant logo">
           </div>
