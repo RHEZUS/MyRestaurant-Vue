@@ -10,7 +10,7 @@
 /* HTML: <div class="loader"></div> */
 .loader {
     width: 7px;
-    color: #f84c98;
+    color: black;
     aspect-ratio: 1;
     border-radius: 50%;
     box-shadow: 
