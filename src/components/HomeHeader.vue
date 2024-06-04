@@ -21,12 +21,12 @@
           </a>
           <a class="relative group" href="/restaurants">
             <li class="text-black">Restaurants</li>
-            <span v-if="$route.name == 'help&faq'" class="after:block after:absolute after:left-0 after:top-5 after:h-[2px] after:bg-blue-600 after:w-full  group-hover:after:w-full"></span>
+            <span v-if="$route.name == 'restaurants'" class="after:block after:absolute after:left-0 after:top-5 after:h-[2px] after:bg-blue-600 after:w-full  group-hover:after:w-full"></span>
             <span v-else class="after:block after:absolute after:left-0 after:top-5 after:h-[2px] after:bg-blue-600 after:w-0 after:transition-all after:duration-300 group-hover:after:w-full"></span>
           </a>
           <a class="relative group" href="/categories">
             <li class="text-black">Categories</li>
-            <span v-if="$route.name == 'help&faq'" class="after:block after:absolute after:left-0 after:top-5 after:h-[2px] after:bg-blue-600 after:w-full  group-hover:after:w-full"></span>
+            <span v-if="$route.name == 'categories'" class="after:block after:absolute after:left-0 after:top-5 after:h-[2px] after:bg-blue-600 after:w-full  group-hover:after:w-full"></span>
             <span v-else class="after:block after:absolute after:left-0 after:top-5 after:h-[2px] after:bg-blue-600 after:w-0 after:transition-all after:duration-300 group-hover:after:w-full"></span>
           </a>
             

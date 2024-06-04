@@ -15,8 +15,11 @@
         <div :class="{'translate-x-0' : showSidebar, '-translate-x-[560px]': !showSidebar}" class="duration-700 border lg:hidden absolute left-0 top-[50px] p-5  w-[340px] bg-white text-black"  ref="sidebar" style="height: calc(100vh - 0px);">
             <ul class="flex flex-col gap-5 font-normal">
                 <a href="/"><li class="text-black">Home</li></a>
-                <a class="relative group" href="/help&faq">
-                    <li class="text-black">Help &amp; FAQ</li>
+                <a class="relative group" href="/restaurants">
+                    <li class="text-black">Restaurants</li>
+                </a>
+                <a class="relative group" href="/categories">
+                    <li class="text-black">Categories</li>
                 </a>
                 <a class="relative group" href="/contact">
                     <li class="text-black">Contact Us</li>
