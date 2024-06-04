@@ -13,9 +13,9 @@ export default function authMiddleware(to, from, next) {
         }
         
         // Make a request to the backend to validate the token and retrieve user role
-        axios.get(`${ API_URL }/user`, {
+        axios.get(`${ API_URL }/test-token/`, {
             headers: {
-                Authorization: `Bearer ${authToken}`
+                Authorization: `Token ${authToken}`
             }
         })
         .then(response => {
