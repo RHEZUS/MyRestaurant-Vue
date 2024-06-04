@@ -11,7 +11,7 @@
             <h1 class="text-center text-5xl my-3 font-semibold capitalize">{{restaurant.name}}</h1>
           </div>
         </div>
-        <div class="px-28 w-full grid grid-cols-12 mt-8 gap-4">
+        <div class="px-5 sm:px-16 md:px-28 w-full grid grid-cols-12 mt-8 gap-4">
           <div v-for="item in menus" class="col-span-12 md:col-span-6 border-2 border-[#525953] p-6 rounded-lg">
             <div class="">
               <h1 class="text-center text-white text-2xl font-medium capitalize border-b-2 border-[#bea574]">{{item.category.name}}</h1>
