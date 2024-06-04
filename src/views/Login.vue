@@ -58,9 +58,9 @@
                       }
                   });
                   const token = response.data.token;
-                  //console.log(response);
+                  console.log(response);
                   localStorage.setItem('authToken', token);
-                  this.$router.push('/');
+                  //this.$router.push('/');
               } catch (error) {
                   if (error.response && error.response.status === 401) {
                       this.error = 'Invalid email or password';
