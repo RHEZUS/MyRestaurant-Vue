@@ -31,17 +31,20 @@ const router = createRouter({
     {
         path: '/categories/',
         name: 'categories',
-        component: () => import('../views/Categories.vue')
+        component: () => import('../views/Categories.vue'),
+        meta: { requiresAuth: true, requiresRole: ['admin', 'vendor', 'user'] }
     },
     {
         path: '/restaurants/',
         name: 'restaurants',
-        component: () => import('../views/Restaurant.vue')
+        component: () => import('../views/Restaurant.vue'),
+        meta: { requiresAuth: true, requiresRole: ['admin', 'vendor', 'user'] }
     },
     {
       path: '/restaurant/:id/',
       name: 'restaurantMenus',
-      component: () => import('../views/Menus.vue')
+      component: () => import('../views/Menus.vue'),
+      meta: { requiresAuth: true, requiresRole: ['admin', 'vendor', 'user'] }
     },
 
     {
