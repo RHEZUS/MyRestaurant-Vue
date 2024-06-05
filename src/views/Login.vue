@@ -60,7 +60,7 @@
                   const token = response.data.token;
                   console.log(response);
                   localStorage.setItem('authToken', token);
-                  this.$router.push('/');
+                  this.$router.push('/restaurants/');
               } catch (error) {
                   if (error.response && error.response.status === 401) {
                       this.error = 'Invalid email or password';
