@@ -4,7 +4,7 @@
       
       <!--Website Logo-->
       <div class="logo text-center text-3xl col-span-10 lg:col-span-2 flex items-center justify-start">
-        <a  href="/">
+        <a  href="/restaurants">
             <img :src="Logo" alt="logo" width="50" height="50">
         </a>
       </div>
@@ -14,7 +14,7 @@
       <!--Menu For large Screen Sizes-->
       <div class="justify-center text-white col-span-7  py-1 hidden lg:flex">
         <ul class="flex gap-10 font-normal">
-          <a class="relative group" href="/">
+          <a class="relative group" href="/restaurants">
             <li  class="text-black">Home</li>
             <span v-if="$route.name == 'home'" class="after:block after:absolute after:left-0 after:top-5 after:h-[2px] after:bg-blue-600 after:w-full  group-hover:after:w-full"></span>
             <span v-else class="after:block after:absolute after:left-0 after:top-5 after:h-[2px] after:bg-blue-600 after:w-0 after:transition-all after:duration-300 group-hover:after:w-full"></span>
